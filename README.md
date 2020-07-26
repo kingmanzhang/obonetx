@@ -1,0 +1,3 @@
+# obonetx: an intuitive way to use obonet for OBO-formatted ontologies
+
+ObonetX is built on top of [obonet](https://github.com/dhimmel/obonet) and provides an intuitive way to use obo-formatted ontologies. Obonet parses an obo ontology into a [networkx](https://networkx.readthedocs.io/en/stable/overview.html) graph and expects users to call networkx functions to access ontology resources. While this approach takes full advanage of the power of networkx, it is not easy for users who are not familiar with networkx and not intuitive to manage an ontology. This package provides a wrapper of networkx graph models as an Ontology class and simplies the way to access ontology classes.   

@@ -38,6 +38,9 @@ hpo.terms_are_siblings(t1='HP:3000072', t2='HP:0000492')
 # retrieve a map from term_id to term_label
 hpo.term_id_2_label_map()
 
+# retrieve the underlying networkx graph model
+hpo.nx_graph()
+
 ```
 
 ## Contributing

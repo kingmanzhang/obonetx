@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='obonetx',
-    version='0.1',
+    version='0.2',
     author='Xingmin (Aaron) Zhang',
     author_email='kingmanzhang@gmail.com',
     url='https://github.com/kingmanzhang/obonetx',

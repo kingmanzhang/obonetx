@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='obonetx',
-    version='0.2',
+    version='0.3',
     author='Xingmin (Aaron) Zhang',
     author_email='kingmanzhang@gmail.com',
     url='https://github.com/kingmanzhang/obonetx',
@@ -26,14 +26,13 @@ setup(
     # Dependencies
     install_requires=[
         'networkx',
-        'obonet'
+        'obonet',
     ],
 
     extras_require={
         "dev" : [
             "pytest >= 3.7",
-            "pipenv",
-            "twine"
+            "twine",
         ]
     },
 )
